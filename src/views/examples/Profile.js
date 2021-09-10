@@ -89,7 +89,8 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="#pablo"
-                          onClick={"https://www.linkedin.com/in/yousef-alramli-932482165/"}
+                          onClick={e => {e.preventDefault()
+                            window.open("https://www.linkedin.com/in/yousef-alramli-932482165/")}}
                           size="sm"
                         >
                           Connect linkedIn
