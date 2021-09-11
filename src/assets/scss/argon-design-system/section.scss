@@ -110,29 +110,10 @@
         }
     }
 
-    .shape-default {
-        background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
-
-         :nth-child(1) {
-            background: shapes-default-color("span-1-bg");
-        }
-
-         :nth-child(2) {
-            background: shapes-default-color("span-2-bg");
-        }
-
-         :nth-child(3) {
-            background: shapes-default-color("span-3-bg");
-        }
-
-         :nth-child(4) {
-            background: shapes-default-color("span-4-bg");
-        }
-
-         :nth-child(5) {
-            background: shapes-default-color("span-5-bg");
-        }
-    }
+    // .shape-default {
+    //     background-image: url('https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    //     background-size: cover;
+    // }
 
     .shape-light {
         background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);
@@ -296,9 +277,9 @@
             background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
         }
 
-        &.shape-default {
-            background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
-        }
+        // &.shape-default {
+        //     background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
+        // }
 
         &.shape-light {
             background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);
