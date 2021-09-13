@@ -156,9 +156,12 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={e => {
+                              e.preventDefault()
+                              window.open('https://code-waves.github.io/book-Shop/')
+                            }}
                           >
-                            Learn more
+                            Go to page
                           </Button>
                         </CardBody>
                       </Card>
@@ -170,10 +173,11 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            301 project
+                            Cookie-Stand
                           </h6>
                           <p className="description mt-3">.
-                            301 project
+                            Cookie-Stand it's a demo project. It’s mainly about getting data to someone shop that sells salmon-cookies.
+                            In this project you can add new shop with a numbers of how many cookies sold per hour.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -190,9 +194,12 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={e => {
+                              e.preventDefault()
+                              window.open("https://yousef-alramli.github.io/cookie-stand/")
+                            }}
                           >
-                            Learn more
+                            Go to page
                           </Button>
                         </CardBody>
                       </Card>
@@ -204,10 +211,10 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            401 project
+                            Horned beasts
                           </h6>
                           <p className="description mt-3">
-                            401 project
+                            This site is about image gallery for animals that or beasts that have hornes. in this site you can choose to see animals or beasts with specific number of hornes
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -224,9 +231,11 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={e => {e.preventDefault()
+                            window.open('https://hornedproject.netlify.app/')
+                            }}
                           >
-                            Learn more
+                             Go to page
                           </Button>
                         </CardBody>
                       </Card>
